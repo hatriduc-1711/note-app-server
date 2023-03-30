@@ -60,7 +60,7 @@ const corsOptions = {
 
 app.use(
   "/graphql",
-  cors(corsOptions),
+  cors(),
   authorizationJWT,
   bodyParser.json(),
   expressMiddleware(server, {
