@@ -46,7 +46,7 @@ const authorizationJWT = async (req, res, next) => {
 };
 
 const corsOptions = {
-  origin: ["https://mellow-kataifi-5ec43c.netlify.app"],
+  origin: ["https://profound-narwhal-854160.netlify.app"],
   allowedHeaders: [
     "Content-Type",
     "Authorization",
